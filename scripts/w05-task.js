@@ -55,7 +55,7 @@ const reset = () => {
 /* sortBy Function */
 
 const sortBy = (temples) => {
-    reset();
+    // reset();
     let filter = document.querySelector("#sortBy").value;
 
     switch (filter) {
